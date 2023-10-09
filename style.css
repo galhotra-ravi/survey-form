@@ -1,0 +1,128 @@
+body{
+    color: white;
+}
+main {
+    position: absolute;
+}
+
+.bg1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.bg2 {
+    background-color: darkblue;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 50%;
+}
+
+h1,
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: relative;
+    text-align: center;
+    left: 110%;
+}
+
+.form-div {
+    position: absolute;
+    margin: auto;
+    left: 72%;
+    width: 650px;
+    height: 1310px;
+    border-radius: 7px;
+    opacity: 85%;
+    padding: 40px;
+    background-color: rgb(2, 2, 67);
+}
+
+/* form {
+
+} */
+
+input:not(.radio) {
+    border: 2px solid white;
+    color: rgb(35, 35, 35);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    border-radius: 5px;
+    width: 640px;
+    height: 35px;
+    padding-left: 15px;
+    margin-bottom: 15px;;
+}
+
+select{
+    border: 2px solid white;
+    color: rgb(35, 35, 35);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    border-radius: 5px;
+    width: 662px;
+    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.radio{
+    border: 0;
+    width: 1.3em;
+    height: 1.3em;
+}
+.radio-box{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-bottom: 40px;
+}
+.check-box{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+input[type="checkbox"]{
+    border: 0;
+    width: 1.2em;
+    height: 1.2em;
+}
+label:not(.radio-box label){
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+textarea{
+    padding: 15px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+button[type=submit]{
+    background-color: rgb(56, 215, 93);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: auto;
+    margin-top: 10px;
+    width: 658px;
+    height: 40px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+button[type=submit]:hover{
+    background-color: rgb(34, 113, 53);
+    color: darkgrey;
+
+}
+
+
